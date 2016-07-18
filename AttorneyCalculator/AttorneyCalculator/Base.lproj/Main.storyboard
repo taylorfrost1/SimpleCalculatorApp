@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AttorneyCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Estimated Percentage Chance of Defense Win on Dispositive Motion" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kro-ah-RYB">
+                                <rect key="frame" x="8" y="28" width="584" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Estimated Percentage Chance of Defense Win at Trial" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gsK-f7-1sI">
+                                <rect key="frame" x="8" y="81" width="584" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Estimaged Percentage Chance of Defense Loss at Trial" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hoL-JC-K6u">
+                                <rect key="frame" x="8" y="134" width="584" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Estimated Attorney Hourly Cost" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hNt-Wb-9Hl">
+                                <rect key="frame" x="8" y="346" width="584" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Estimated Trial Cost" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Au9-Ch-1eS">
+                                <rect key="frame" x="8" y="240" width="584" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Estimated Attorney Hours" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oyg-o4-tHr">
+                                <rect key="frame" x="8" y="293" width="584" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Estimated Litigation Cost" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b0o-dW-wzn">
+                                <rect key="frame" x="8" y="187" width="584" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R9u-c0-xDA">
+                                <rect key="frame" x="279" y="435" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Defense Wins at Trial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9Y-NN-1fC">
+                                <rect key="frame" x="219" y="464" width="162" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Defense Wins on Dispositive Motion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BwV-Qb-oNe">
+                                <rect key="frame" x="163" y="406" width="275" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ct-Kp-d1n">
+                                <rect key="frame" x="279" y="493" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Defense Loses at Trial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Py8-sX-G93">
+                                <rect key="frame" x="216" y="522" width="169" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phE-xl-gRh">
+                                <rect key="frame" x="277" y="584" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="firstButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ray-kc-Xlc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQf-yY-tZx">
+                                <rect key="frame" x="279" y="558" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5ct-Kp-d1n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6cc-rR-KnT"/>
+                            <constraint firstItem="hoL-JC-K6u" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="B5r-6H-xXK"/>
+                            <constraint firstItem="BwV-Qb-oNe" firstAttribute="centerX" secondItem="hNt-Wb-9Hl" secondAttribute="centerX" id="DJi-L9-YJU"/>
+                            <constraint firstAttribute="trailing" secondItem="b0o-dW-wzn" secondAttribute="trailing" constant="8" id="EiT-zG-Oyl"/>
+                            <constraint firstItem="gsK-f7-1sI" firstAttribute="top" secondItem="Kro-ah-RYB" secondAttribute="bottom" constant="23" id="FIH-KV-8Al"/>
+                            <constraint firstItem="R9u-c0-xDA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GNK-FP-LEN"/>
+                            <constraint firstItem="Py8-sX-G93" firstAttribute="top" secondItem="5ct-Kp-d1n" secondAttribute="bottom" constant="8" id="Gyw-Gk-Ib2"/>
+                            <constraint firstAttribute="trailing" secondItem="hNt-Wb-9Hl" secondAttribute="trailing" constant="8" id="LIK-DZ-EMd"/>
+                            <constraint firstItem="BwV-Qb-oNe" firstAttribute="top" secondItem="hNt-Wb-9Hl" secondAttribute="bottom" constant="30" id="Nns-M0-mbV"/>
+                            <constraint firstItem="Au9-Ch-1eS" firstAttribute="top" secondItem="b0o-dW-wzn" secondAttribute="bottom" constant="23" id="POE-LC-fuW"/>
+                            <constraint firstItem="5ct-Kp-d1n" firstAttribute="top" secondItem="y9Y-NN-1fC" secondAttribute="bottom" constant="8" id="QaP-a7-dYA"/>
+                            <constraint firstItem="cQf-yY-tZx" firstAttribute="top" secondItem="Py8-sX-G93" secondAttribute="bottom" constant="15" id="RQ8-15-36r"/>
+                            <constraint firstItem="Oyg-o4-tHr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="TNl-oX-rRO"/>
+                            <constraint firstItem="y9Y-NN-1fC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TSn-rC-c4J"/>
+                            <constraint firstAttribute="trailing" secondItem="gsK-f7-1sI" secondAttribute="trailing" constant="8" id="a3o-Dg-MRR"/>
+                            <constraint firstItem="b0o-dW-wzn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="bo4-wm-TUr"/>
+                            <constraint firstItem="Au9-Ch-1eS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="btO-Mz-rmR"/>
+                            <constraint firstItem="hNt-Wb-9Hl" firstAttribute="top" secondItem="Oyg-o4-tHr" secondAttribute="bottom" constant="23" id="cYd-NW-CQ0"/>
+                            <constraint firstItem="phE-xl-gRh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ceO-oe-prq"/>
+                            <constraint firstAttribute="trailing" secondItem="Kro-ah-RYB" secondAttribute="trailing" constant="8" id="gwl-xd-Keu"/>
+                            <constraint firstAttribute="trailing" secondItem="Au9-Ch-1eS" secondAttribute="trailing" constant="8" id="h4A-54-C3u"/>
+                            <constraint firstItem="y9Y-NN-1fC" firstAttribute="top" secondItem="R9u-c0-xDA" secondAttribute="bottom" constant="8" id="iCQ-Ti-Vxx"/>
+                            <constraint firstItem="phE-xl-gRh" firstAttribute="top" secondItem="cQf-yY-tZx" secondAttribute="bottom" constant="5" id="j1K-RS-ZUB"/>
+                            <constraint firstItem="Py8-sX-G93" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="klO-mM-vqf"/>
+                            <constraint firstAttribute="trailing" secondItem="Oyg-o4-tHr" secondAttribute="trailing" constant="8" id="krK-uE-m1f"/>
+                            <constraint firstItem="b0o-dW-wzn" firstAttribute="top" secondItem="hoL-JC-K6u" secondAttribute="bottom" constant="23" id="odd-V6-Lgp"/>
+                            <constraint firstItem="hNt-Wb-9Hl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="ohM-hx-5JK"/>
+                            <constraint firstItem="cQf-yY-tZx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pUB-RS-Jzx"/>
+                            <constraint firstItem="gsK-f7-1sI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="syx-CM-LJC"/>
+                            <constraint firstItem="hoL-JC-K6u" firstAttribute="top" secondItem="gsK-f7-1sI" secondAttribute="bottom" constant="23" id="u61-br-gdK"/>
+                            <constraint firstItem="Oyg-o4-tHr" firstAttribute="top" secondItem="Au9-Ch-1eS" secondAttribute="bottom" constant="23" id="w1c-Wh-SBi"/>
+                            <constraint firstAttribute="trailing" secondItem="hoL-JC-K6u" secondAttribute="trailing" constant="8" id="whh-cE-iYO"/>
+                            <constraint firstItem="Kro-ah-RYB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="xH0-Go-2mR"/>
+                            <constraint firstItem="R9u-c0-xDA" firstAttribute="top" secondItem="BwV-Qb-oNe" secondAttribute="bottom" constant="8" id="xTY-YR-86D"/>
+                            <constraint firstItem="Kro-ah-RYB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="zL5-9F-Sxh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fifthTextField" destination="Au9-Ch-1eS" id="NdD-Sh-V0s"/>
+                        <outlet property="firstLabel" destination="R9u-c0-xDA" id="OkQ-I0-fdy"/>
+                        <outlet property="firstTextField" destination="Kro-ah-RYB" id="SFX-xi-hoc"/>
+                        <outlet property="fourthTextField" destination="b0o-dW-wzn" id="rJC-2E-e1l"/>
+                        <outlet property="secondLabel" destination="5ct-Kp-d1n" id="z6F-uj-rYP"/>
+                        <outlet property="secondTextField" destination="gsK-f7-1sI" id="Ab2-MF-8gq"/>
+                        <outlet property="seventhTextField" destination="hNt-Wb-9Hl" id="A6H-O2-gql"/>
+                        <outlet property="sixthTextField" destination="Oyg-o4-tHr" id="ILx-OV-XQW"/>
+                        <outlet property="thirdLabel" destination="cQf-yY-tZx" id="CUn-t6-sV5"/>
+                        <outlet property="thirdTextField" destination="hoL-JC-K6u" id="LBV-Rr-N9S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="325" y="400"/>
+        </scene>
+    </scenes>
+</document>
