@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FDB4B6B01D3C3F19009B6667"
-               BuildableName = "AttorneyCalculator.app"
-               BlueprintName = "AttorneyCalculator"
-               ReferencedContainer = "container:AttorneyCalculator.xcodeproj">
+               BlueprintIdentifier = "FD46D2431D4287D6007F4E3B"
+               BuildableName = "AttorneyCalc.app"
+               BlueprintName = "AttorneyCalc"
+               ReferencedContainer = "container:AttorneyCalc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FDB4B6B01D3C3F19009B6667"
-            BuildableName = "AttorneyCalculator.app"
-            BlueprintName = "AttorneyCalculator"
-            ReferencedContainer = "container:AttorneyCalculator.xcodeproj">
+            BlueprintIdentifier = "FD46D2431D4287D6007F4E3B"
+            BuildableName = "AttorneyCalc.app"
+            BlueprintName = "AttorneyCalc"
+            ReferencedContainer = "container:AttorneyCalc.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FDB4B6B01D3C3F19009B6667"
-            BuildableName = "AttorneyCalculator.app"
-            BlueprintName = "AttorneyCalculator"
-            ReferencedContainer = "container:AttorneyCalculator.xcodeproj">
+            BlueprintIdentifier = "FD46D2431D4287D6007F4E3B"
+            BuildableName = "AttorneyCalc.app"
+            BlueprintName = "AttorneyCalc"
+            ReferencedContainer = "container:AttorneyCalc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FDB4B6B01D3C3F19009B6667"
-            BuildableName = "AttorneyCalculator.app"
-            BlueprintName = "AttorneyCalculator"
-            ReferencedContainer = "container:AttorneyCalculator.xcodeproj">
+            BlueprintIdentifier = "FD46D2431D4287D6007F4E3B"
+            BuildableName = "AttorneyCalc.app"
+            BlueprintName = "AttorneyCalc"
+            ReferencedContainer = "container:AttorneyCalc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

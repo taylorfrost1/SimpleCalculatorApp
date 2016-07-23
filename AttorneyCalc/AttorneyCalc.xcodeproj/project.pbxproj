@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FDB4B6B51D3C3F19009B6667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB4B6B41D3C3F19009B6667 /* AppDelegate.swift */; };
-		FDB4B6B71D3C3F19009B6667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB4B6B61D3C3F19009B6667 /* ViewController.swift */; };
-		FDB4B6BA1D3C3F19009B6667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB4B6B81D3C3F19009B6667 /* Main.storyboard */; };
-		FDB4B6BC1D3C3F19009B6667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB4B6BB1D3C3F19009B6667 /* Assets.xcassets */; };
-		FDB4B6BF1D3C3F19009B6667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB4B6BD1D3C3F19009B6667 /* LaunchScreen.storyboard */; };
+		FD46D2481D4287D6007F4E3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46D2471D4287D6007F4E3B /* AppDelegate.swift */; };
+		FD46D24A1D4287D6007F4E3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46D2491D4287D6007F4E3B /* ViewController.swift */; };
+		FD46D24D1D4287D6007F4E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD46D24B1D4287D6007F4E3B /* Main.storyboard */; };
+		FD46D24F1D4287D6007F4E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD46D24E1D4287D6007F4E3B /* Assets.xcassets */; };
+		FD46D2521D4287D6007F4E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD46D2501D4287D6007F4E3B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FDB4B6B11D3C3F19009B6667 /* AttorneyCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttorneyCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDB4B6B41D3C3F19009B6667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FDB4B6B61D3C3F19009B6667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FDB4B6B91D3C3F19009B6667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FDB4B6BB1D3C3F19009B6667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FDB4B6BE1D3C3F19009B6667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FDB4B6C01D3C3F19009B6667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD46D2441D4287D6007F4E3B /* AttorneyCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttorneyCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD46D2471D4287D6007F4E3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD46D2491D4287D6007F4E3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD46D24C1D4287D6007F4E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD46D24E1D4287D6007F4E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD46D2511D4287D6007F4E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD46D2531D4287D6007F4E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FDB4B6AE1D3C3F19009B6667 /* Frameworks */ = {
+		FD46D2411D4287D6007F4E3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FDB4B6A81D3C3F19009B6667 = {
+		FD46D23B1D4287D6007F4E3B = {
 			isa = PBXGroup;
 			children = (
-				FDB4B6B31D3C3F19009B6667 /* AttorneyCalculator */,
-				FDB4B6B21D3C3F19009B6667 /* Products */,
+				FD46D2461D4287D6007F4E3B /* AttorneyCalc */,
+				FD46D2451D4287D6007F4E3B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FDB4B6B21D3C3F19009B6667 /* Products */ = {
+		FD46D2451D4287D6007F4E3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FDB4B6B11D3C3F19009B6667 /* AttorneyCalculator.app */,
+				FD46D2441D4287D6007F4E3B /* AttorneyCalc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FDB4B6B31D3C3F19009B6667 /* AttorneyCalculator */ = {
+		FD46D2461D4287D6007F4E3B /* AttorneyCalc */ = {
 			isa = PBXGroup;
 			children = (
-				FDB4B6B41D3C3F19009B6667 /* AppDelegate.swift */,
-				FDB4B6B61D3C3F19009B6667 /* ViewController.swift */,
-				FDB4B6B81D3C3F19009B6667 /* Main.storyboard */,
-				FDB4B6BB1D3C3F19009B6667 /* Assets.xcassets */,
-				FDB4B6BD1D3C3F19009B6667 /* LaunchScreen.storyboard */,
-				FDB4B6C01D3C3F19009B6667 /* Info.plist */,
+				FD46D2471D4287D6007F4E3B /* AppDelegate.swift */,
+				FD46D2491D4287D6007F4E3B /* ViewController.swift */,
+				FD46D24B1D4287D6007F4E3B /* Main.storyboard */,
+				FD46D24E1D4287D6007F4E3B /* Assets.xcassets */,
+				FD46D2501D4287D6007F4E3B /* LaunchScreen.storyboard */,
+				FD46D2531D4287D6007F4E3B /* Info.plist */,
 			);
-			path = AttorneyCalculator;
+			path = AttorneyCalc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FDB4B6B01D3C3F19009B6667 /* AttorneyCalculator */ = {
+		FD46D2431D4287D6007F4E3B /* AttorneyCalc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDB4B6C31D3C3F19009B6667 /* Build configuration list for PBXNativeTarget "AttorneyCalculator" */;
+			buildConfigurationList = FD46D2561D4287D6007F4E3B /* Build configuration list for PBXNativeTarget "AttorneyCalc" */;
 			buildPhases = (
-				FDB4B6AD1D3C3F19009B6667 /* Sources */,
-				FDB4B6AE1D3C3F19009B6667 /* Frameworks */,
-				FDB4B6AF1D3C3F19009B6667 /* Resources */,
+				FD46D2401D4287D6007F4E3B /* Sources */,
+				FD46D2411D4287D6007F4E3B /* Frameworks */,
+				FD46D2421D4287D6007F4E3B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AttorneyCalculator;
-			productName = AttorneyCalculator;
-			productReference = FDB4B6B11D3C3F19009B6667 /* AttorneyCalculator.app */;
+			name = AttorneyCalc;
+			productName = AttorneyCalc;
+			productReference = FD46D2441D4287D6007F4E3B /* AttorneyCalc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FDB4B6A91D3C3F19009B6667 /* Project object */ = {
+		FD46D23C1D4287D6007F4E3B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Taylor Frost";
 				TargetAttributes = {
-					FDB4B6B01D3C3F19009B6667 = {
+					FD46D2431D4287D6007F4E3B = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = FDB4B6AC1D3C3F19009B6667 /* Build configuration list for PBXProject "AttorneyCalculator" */;
+			buildConfigurationList = FD46D23F1D4287D6007F4E3B /* Build configuration list for PBXProject "AttorneyCalc" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = FDB4B6A81D3C3F19009B6667;
-			productRefGroup = FDB4B6B21D3C3F19009B6667 /* Products */;
+			mainGroup = FD46D23B1D4287D6007F4E3B;
+			productRefGroup = FD46D2451D4287D6007F4E3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDB4B6B01D3C3F19009B6667 /* AttorneyCalculator */,
+				FD46D2431D4287D6007F4E3B /* AttorneyCalc */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FDB4B6AF1D3C3F19009B6667 /* Resources */ = {
+		FD46D2421D4287D6007F4E3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB4B6BF1D3C3F19009B6667 /* LaunchScreen.storyboard in Resources */,
-				FDB4B6BC1D3C3F19009B6667 /* Assets.xcassets in Resources */,
-				FDB4B6BA1D3C3F19009B6667 /* Main.storyboard in Resources */,
+				FD46D2521D4287D6007F4E3B /* LaunchScreen.storyboard in Resources */,
+				FD46D24F1D4287D6007F4E3B /* Assets.xcassets in Resources */,
+				FD46D24D1D4287D6007F4E3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FDB4B6AD1D3C3F19009B6667 /* Sources */ = {
+		FD46D2401D4287D6007F4E3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB4B6B71D3C3F19009B6667 /* ViewController.swift in Sources */,
-				FDB4B6B51D3C3F19009B6667 /* AppDelegate.swift in Sources */,
+				FD46D24A1D4287D6007F4E3B /* ViewController.swift in Sources */,
+				FD46D2481D4287D6007F4E3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FDB4B6B81D3C3F19009B6667 /* Main.storyboard */ = {
+		FD46D24B1D4287D6007F4E3B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FDB4B6B91D3C3F19009B6667 /* Base */,
+				FD46D24C1D4287D6007F4E3B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FDB4B6BD1D3C3F19009B6667 /* LaunchScreen.storyboard */ = {
+		FD46D2501D4287D6007F4E3B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FDB4B6BE1D3C3F19009B6667 /* Base */,
+				FD46D2511D4287D6007F4E3B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FDB4B6C11D3C3F19009B6667 /* Debug */ = {
+		FD46D2541D4287D6007F4E3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		FDB4B6C21D3C3F19009B6667 /* Release */ = {
+		FD46D2551D4287D6007F4E3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,24 +245,24 @@
 			};
 			name = Release;
 		};
-		FDB4B6C41D3C3F19009B6667 /* Debug */ = {
+		FD46D2571D4287D6007F4E3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AttorneyCalculator/Info.plist;
+				INFOPLIST_FILE = AttorneyCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FrostEnterprises.AttorneyCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrostEnterprises.AttorneyCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		FDB4B6C51D3C3F19009B6667 /* Release */ = {
+		FD46D2581D4287D6007F4E3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AttorneyCalculator/Info.plist;
+				INFOPLIST_FILE = AttorneyCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FrostEnterprises.AttorneyCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrostEnterprises.AttorneyCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -270,24 +270,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FDB4B6AC1D3C3F19009B6667 /* Build configuration list for PBXProject "AttorneyCalculator" */ = {
+		FD46D23F1D4287D6007F4E3B /* Build configuration list for PBXProject "AttorneyCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDB4B6C11D3C3F19009B6667 /* Debug */,
-				FDB4B6C21D3C3F19009B6667 /* Release */,
+				FD46D2541D4287D6007F4E3B /* Debug */,
+				FD46D2551D4287D6007F4E3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDB4B6C31D3C3F19009B6667 /* Build configuration list for PBXNativeTarget "AttorneyCalculator" */ = {
+		FD46D2561D4287D6007F4E3B /* Build configuration list for PBXNativeTarget "AttorneyCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDB4B6C41D3C3F19009B6667 /* Debug */,
-				FDB4B6C51D3C3F19009B6667 /* Release */,
+				FD46D2571D4287D6007F4E3B /* Debug */,
+				FD46D2581D4287D6007F4E3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FDB4B6A91D3C3F19009B6667 /* Project object */;
+	rootObject = FD46D23C1D4287D6007F4E3B /* Project object */;
 }

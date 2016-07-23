@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AttorneyCalc" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="500" minValue="0.0" maxValue="1000" translatesAutoresizingMaskIntoConstraints="NO" id="3bB-1a-LHV">
+                                <rect key="frame" x="26" y="146" width="548" height="31"/>
+                                <connections>
+                                    <action selector="litigationSliderTapped:" destination="BYZ-38-t0r" eventType="valueChanged" id="PRY-Xf-0m5"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHd-D8-fPi">
+                                <rect key="frame" x="253" y="227" width="94" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estimated Litigation Costs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SV0-i9-K9z">
+                                <rect key="frame" x="155" y="70" width="291" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estimated Trial Costs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fvn-9A-lAZ">
+                                <rect key="frame" x="183" y="343" width="234" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="500" minValue="0.0" maxValue="1000" translatesAutoresizingMaskIntoConstraints="NO" id="O2j-Ea-kmW">
+                                <rect key="frame" x="26" y="424" width="548" height="31"/>
+                                <connections>
+                                    <action selector="trialSliderTapped:" destination="BYZ-38-t0r" eventType="valueChanged" id="1uk-ob-RqW"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQS-LZ-Xu3">
+                                <rect key="frame" x="253" y="501" width="94" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hw-Ml-B3E">
+                                <rect key="frame" x="0.0" y="520" width="600" height="80"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="2JY-Ve-pXq"/>
+                                    <constraint firstAttribute="height" constant="80" id="XdX-ek-xCW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="O2j-Ea-kmW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="4yx-Jb-cjz"/>
+                            <constraint firstItem="SV0-i9-K9z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7zc-Yv-zz5"/>
+                            <constraint firstItem="Fvn-9A-lAZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FLx-iP-Ycx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O2j-Ea-kmW" secondAttribute="trailing" constant="8" id="I5u-bO-ErW"/>
+                            <constraint firstItem="TQS-LZ-Xu3" firstAttribute="top" secondItem="O2j-Ea-kmW" secondAttribute="bottom" constant="47" id="NmQ-eH-HTJ"/>
+                            <constraint firstItem="3bB-1a-LHV" firstAttribute="top" secondItem="SV0-i9-K9z" secondAttribute="bottom" constant="46" id="S7H-7q-tSg"/>
+                            <constraint firstItem="TQS-LZ-Xu3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TK4-Xf-HeQ"/>
+                            <constraint firstItem="O2j-Ea-kmW" firstAttribute="top" secondItem="Fvn-9A-lAZ" secondAttribute="bottom" constant="51" id="WlR-Ig-EPV"/>
+                            <constraint firstItem="4hw-Ml-B3E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b5R-6c-mzv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3bB-1a-LHV" secondAttribute="trailing" constant="8" id="bL8-q0-p6M"/>
+                            <constraint firstItem="aHd-D8-fPi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fux-Hb-Onp"/>
+                            <constraint firstItem="3bB-1a-LHV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="iW8-2Q-OGm"/>
+                            <constraint firstItem="O2j-Ea-kmW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lir-bs-5pC"/>
+                            <constraint firstItem="SV0-i9-K9z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="ogS-3W-Yjf"/>
+                            <constraint firstItem="Fvn-9A-lAZ" firstAttribute="top" secondItem="aHd-D8-fPi" secondAttribute="bottom" constant="69" id="qAZ-7A-CN2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4hw-Ml-B3E" secondAttribute="bottom" id="qjA-fv-B94"/>
+                            <constraint firstItem="aHd-D8-fPi" firstAttribute="top" secondItem="3bB-1a-LHV" secondAttribute="bottom" constant="51" id="sUI-jl-aZj"/>
+                            <constraint firstItem="3bB-1a-LHV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vkp-zq-ujv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="litigationNumberLabel" destination="aHd-D8-fPi" id="wg6-Yc-z20"/>
+                        <outlet property="litigationSlider" destination="3bB-1a-LHV" id="HBH-fc-a6M"/>
+                        <outlet property="trialNumberLabel" destination="TQS-LZ-Xu3" id="R2Q-m2-LG7"/>
+                        <outlet property="trialSlider" destination="O2j-Ea-kmW" id="8cK-17-zzN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="460" y="349"/>
+        </scene>
+    </scenes>
+</document>

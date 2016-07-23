@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SimpleCalculator
+//  AttorneyCalc
 //
-//  Created by Taylor Frost on 7/16/16.
+//  Created by Taylor Frost on 7/22/16.
 //  Copyright © 2016 Taylor Frost. All rights reserved.
 //
 
