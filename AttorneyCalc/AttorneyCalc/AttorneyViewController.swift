@@ -12,13 +12,18 @@ class AttorneyViewController: UIViewController {
     
     @IBOutlet weak var testLabel: UILabel!
     
-    var recievedLitNumber: Int?
-    var recievedTrialNumber: Int?
+    var recievedLitNumber: String!
+    var recievedTrialNumber: String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        testLabel.text = String(recievedLitNumber)
+        print("\(recievedLitNumber) is the correct litNumber")
+        print("\(recievedTrialNumber) is the correct trialNumber")
+        
+        testLabel.text = recievedLitNumber
+        
+
     
         
         
