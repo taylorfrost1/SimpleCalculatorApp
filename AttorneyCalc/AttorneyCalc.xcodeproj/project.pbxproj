@@ -12,6 +12,7 @@
 		FD46D24D1D4287D6007F4E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD46D24B1D4287D6007F4E3B /* Main.storyboard */; };
 		FD46D24F1D4287D6007F4E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD46D24E1D4287D6007F4E3B /* Assets.xcassets */; };
 		FD46D2521D4287D6007F4E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD46D2501D4287D6007F4E3B /* LaunchScreen.storyboard */; };
+		FDFD3E751D442766006912BC /* AttorneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFD3E741D442766006912BC /* AttorneyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FD46D24E1D4287D6007F4E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD46D2511D4287D6007F4E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD46D2531D4287D6007F4E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFD3E741D442766006912BC /* AttorneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttorneyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +57,22 @@
 			isa = PBXGroup;
 			children = (
 				FD46D2471D4287D6007F4E3B /* AppDelegate.swift */,
-				FD46D2491D4287D6007F4E3B /* ViewController.swift */,
+				FDFD3E761D442775006912BC /* Controllers */,
 				FD46D24B1D4287D6007F4E3B /* Main.storyboard */,
 				FD46D24E1D4287D6007F4E3B /* Assets.xcassets */,
 				FD46D2501D4287D6007F4E3B /* LaunchScreen.storyboard */,
 				FD46D2531D4287D6007F4E3B /* Info.plist */,
 			);
 			path = AttorneyCalc;
+			sourceTree = "<group>";
+		};
+		FDFD3E761D442775006912BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FD46D2491D4287D6007F4E3B /* ViewController.swift */,
+				FDFD3E741D442766006912BC /* AttorneyViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD46D24A1D4287D6007F4E3B /* ViewController.swift in Sources */,
+				FDFD3E751D442766006912BC /* AttorneyViewController.swift in Sources */,
 				FD46D2481D4287D6007F4E3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +298,7 @@
 				FD46D2581D4287D6007F4E3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

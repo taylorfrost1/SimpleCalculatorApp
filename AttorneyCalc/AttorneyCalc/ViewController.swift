@@ -10,6 +10,9 @@ import UIKit
 
 let step:Float = 100
 
+var litNumberPicked: Int?
+var trialNumberPicked: Int?
+
 class ViewController: UIViewController {
     
     @IBOutlet weak var litigationSlider: UISlider!
@@ -25,6 +28,8 @@ class ViewController: UIViewController {
         
         self.litigationNumberLabel.text = "500"
         self.trialNumberLabel.text = "500"
+        
+        
     }
 
     @IBAction func litigationSliderTapped(sender: UISlider) {
@@ -33,10 +38,17 @@ class ViewController: UIViewController {
         let roundedStepValue = round(sender.value / step) * step
         sender.value = roundedStepValue
         
-        let value = Int(roundedStepValue)
+        var value = Int(roundedStepValue)
         
         litigationNumberLabel.text = String(value)
+
+        if let litNumberPicked = litNumberPicked{
+            
+        value = litNumberPicked
+            
+        }
         
+         print(value)
     }
     
     @IBAction func trialSliderTapped(sender: UISlider) {
@@ -44,10 +56,38 @@ class ViewController: UIViewController {
         let roundedStepValue = round(sender.value / step) * step
         sender.value = roundedStepValue
         
-        let value = Int(roundedStepValue)
+        var value = Int(roundedStepValue)
         
         trialNumberLabel.text = String(value)
+        
+        if let trialNumberPicked = trialNumberPicked {
+            
+            value = trialNumberPicked
+
+        }
+        
+        print(value)
     
+
+    }
+    
+    @IBAction func continueButtonTapped(sender: UIButton) {
+        
+        performSegueWithIdentifier("firstSegue", sender: self)
+  
+        
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let controller = segue.destinationViewController as? AttorneyViewController
+        
+        controller?.recievedLitNumber = litNumberPicked
+        controller?.recievedTrialNumber = trialNumberPicked
+        
+        print("Lit and Trial number are being passed")  
+        
+
     }
     
 

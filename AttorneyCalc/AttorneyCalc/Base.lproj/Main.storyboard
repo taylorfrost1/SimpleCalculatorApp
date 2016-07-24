@@ -65,6 +65,9 @@
                                 <state key="normal" title="Continue">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="continueButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fIR-uK-Q5c"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -94,11 +97,45 @@
                         <outlet property="litigationSlider" destination="3bB-1a-LHV" id="HBH-fc-a6M"/>
                         <outlet property="trialNumberLabel" destination="TQS-LZ-Xu3" id="R2Q-m2-LG7"/>
                         <outlet property="trialSlider" destination="O2j-Ea-kmW" id="8cK-17-zzN"/>
+                        <segue destination="U9C-33-hFL" kind="show" identifier="firstSegue" id="8i6-gW-hR8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="460" y="349"/>
+        </scene>
+        <!--Attorney View Controller-->
+        <scene sceneID="lvY-sA-aBt">
+            <objects>
+                <viewController id="U9C-33-hFL" customClass="AttorneyViewController" customModule="AttorneyCalc" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eNM-rx-C7N"/>
+                        <viewControllerLayoutGuide type="bottom" id="2ed-Uv-7yA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xeL-sZ-ykC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5b-vT-Tul">
+                                <rect key="frame" x="279" y="290" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x5b-vT-Tul" firstAttribute="centerY" secondItem="xeL-sZ-ykC" secondAttribute="centerY" id="90M-9u-lwG"/>
+                            <constraint firstItem="x5b-vT-Tul" firstAttribute="centerX" secondItem="xeL-sZ-ykC" secondAttribute="centerX" id="SzL-5f-hcV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="testLabel" destination="x5b-vT-Tul" id="PQ5-aq-19a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="evb-zk-cKS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1131" y="349"/>
         </scene>
     </scenes>
 </document>
