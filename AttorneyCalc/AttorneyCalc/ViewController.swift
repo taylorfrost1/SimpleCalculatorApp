@@ -26,8 +26,7 @@ class ViewController: UIViewController {
         
         self.litigationNumberLabel.text = "500"
         self.trialNumberLabel.text = "500"
-        
-        
+
     }
 
     @IBAction func litigationSliderTapped(sender: UISlider) {

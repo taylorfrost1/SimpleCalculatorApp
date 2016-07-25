@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD0D93F61D4520DF0055A468 /* OutcomesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0D93F51D4520DF0055A468 /* OutcomesViewController.swift */; };
+		FD0D93F81D45330D0055A468 /* CalculationsDisplayedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0D93F71D45330D0055A468 /* CalculationsDisplayedViewController.swift */; };
 		FD46D2481D4287D6007F4E3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46D2471D4287D6007F4E3B /* AppDelegate.swift */; };
 		FD46D24A1D4287D6007F4E3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46D2491D4287D6007F4E3B /* ViewController.swift */; };
 		FD46D24D1D4287D6007F4E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD46D24B1D4287D6007F4E3B /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD0D93F51D4520DF0055A468 /* OutcomesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutcomesViewController.swift; sourceTree = "<group>"; };
+		FD0D93F71D45330D0055A468 /* CalculationsDisplayedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculationsDisplayedViewController.swift; sourceTree = "<group>"; };
 		FD46D2441D4287D6007F4E3B /* AttorneyCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttorneyCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD46D2471D4287D6007F4E3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD46D2491D4287D6007F4E3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 			children = (
 				FD46D2491D4287D6007F4E3B /* ViewController.swift */,
 				FDFD3E741D442766006912BC /* AttorneyViewController.swift */,
+				FD0D93F51D4520DF0055A468 /* OutcomesViewController.swift */,
+				FD0D93F71D45330D0055A468 /* CalculationsDisplayedViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0D93F81D45330D0055A468 /* CalculationsDisplayedViewController.swift in Sources */,
 				FD46D24A1D4287D6007F4E3B /* ViewController.swift in Sources */,
+				FD0D93F61D4520DF0055A468 /* OutcomesViewController.swift in Sources */,
 				FDFD3E751D442766006912BC /* AttorneyViewController.swift in Sources */,
 				FD46D2481D4287D6007F4E3B /* AppDelegate.swift in Sources */,
 			);
